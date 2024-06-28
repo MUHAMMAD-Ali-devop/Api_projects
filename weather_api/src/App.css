@@ -1,0 +1,148 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 17.5px 0px;
+  color: white;
+  background-image: url(./Assets/bg_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0 0 0;
+}
+
+.weather_container {
+  background-color: transparent;
+  width: 50%;
+  color: white;
+  border-radius: 10px;
+  height: auto;
+  padding: 35px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  gap: 25px;
+}
+
+.form_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inpt_field {
+  border: 1px solid white;
+  width: 65%;
+  height: 35px;
+  border-radius: 20px;
+  padding: 0px 10px;
+  padding-top: 1.7px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+.inpt_field:focus {
+  outline: none;
+}
+
+.inpt_field::placeholder {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 15px;
+}
+
+.submit_btn {
+  width: 35px;
+  height: 35px;
+  /* background-color: transparent; */
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 15px;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+}
+
+.image_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+.condition{
+  font-size: 30px;
+  font-weight: bold;
+}
+.cloud_img {
+  width: 120px;
+  height: 120%;
+
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.temp {
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.location {
+  font-size: 60px;
+  text-align: center;
+}
+
+.details2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.humidity_container,
+.wind_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+.humidity_Image,
+.wind_Image {
+  width: 100%;
+  height: 100%;
+}
+.hImage_container, .wImage_container{
+height: 40px;
+width: 40px;
+}
+.humidity_count,
+.wind_count {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Wind_Text{
+  display: flex;
+  justify-content: center;
+}
